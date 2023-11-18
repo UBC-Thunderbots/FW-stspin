@@ -1,0 +1,6 @@
+C:/Users/tarak/OneDrive/Documents/ThunderBots/2023-24/EVSPIN32F02Q1S1_config/Src/register_interface.c:31:9:RI_SetRegisterGlobal	11
+C:/Users/tarak/OneDrive/Documents/ThunderBots/2023-24/EVSPIN32F02Q1S1_config/Src/register_interface.c:153:9:RI_SetRegisterMotor1	30
+C:/Users/tarak/OneDrive/Documents/ThunderBots/2023-24/EVSPIN32F02Q1S1_config/Src/register_interface.c:356:9:RI_GetRegisterGlobal	12
+C:/Users/tarak/OneDrive/Documents/ThunderBots/2023-24/EVSPIN32F02Q1S1_config/Src/register_interface.c:491:11:RI_GetRegisterMotor1	40
+C:/Users/tarak/OneDrive/Documents/ThunderBots/2023-24/EVSPIN32F02Q1S1_config/Src/register_interface.c:778:9:RI_GetIDSize	2
+C:/Users/tarak/OneDrive/Documents/ThunderBots/2023-24/EVSPIN32F02Q1S1_config/Src/register_interface.c:813:16:RI_GetPtrReg	9

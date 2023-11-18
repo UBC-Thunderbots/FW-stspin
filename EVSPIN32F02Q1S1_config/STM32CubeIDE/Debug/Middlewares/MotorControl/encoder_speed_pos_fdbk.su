@@ -1,0 +1,6 @@
+C:/Users/tarak/OneDrive/Documents/ThunderBots/2023-24/EVSPIN32F02Q1S1_config/MCSDK_v6.2.0-Full/MotorControl/MCSDK/MCLib/Any/Src/encoder_speed_pos_fdbk.c:61:13:ENC_Init	16	static
+C:/Users/tarak/OneDrive/Documents/ThunderBots/2023-24/EVSPIN32F02Q1S1_config/MCSDK_v6.2.0-Full/MotorControl/MCSDK/MCLib/Any/Src/encoder_speed_pos_fdbk.c:116:13:ENC_Clear	8	static
+C:/Users/tarak/OneDrive/Documents/ThunderBots/2023-24/EVSPIN32F02Q1S1_config/MCSDK_v6.2.0-Full/MotorControl/MCSDK/MCLib/Any/Src/encoder_speed_pos_fdbk.c:144:16:ENC_CalcAngle	0	static
+C:/Users/tarak/OneDrive/Documents/ThunderBots/2023-24/EVSPIN32F02Q1S1_config/MCSDK_v6.2.0-Full/MotorControl/MCSDK/MCLib/Any/Src/encoder_speed_pos_fdbk.c:202:13:ENC_CalcAvrgMecSpeedUnit	32	static
+C:/Users/tarak/OneDrive/Documents/ThunderBots/2023-24/EVSPIN32F02Q1S1_config/MCSDK_v6.2.0-Full/MotorControl/MCSDK/MCLib/Any/Src/encoder_speed_pos_fdbk.c:358:13:ENC_SetMecAngle	8	static
+C:/Users/tarak/OneDrive/Documents/ThunderBots/2023-24/EVSPIN32F02Q1S1_config/MCSDK_v6.2.0-Full/MotorControl/MCSDK/MCLib/Any/Src/encoder_speed_pos_fdbk.c:398:14:ENC_IRQHandler	0	static
