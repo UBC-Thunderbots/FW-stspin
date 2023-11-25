@@ -1,0 +1,6 @@
+C:/Users/tarak/Downloads/Dribbler Motor - HALL sensing with high-speed logging/Src/register_interface.c:32:9:RI_SetRegisterGlobal	12	static
+C:/Users/tarak/Downloads/Dribbler Motor - HALL sensing with high-speed logging/Src/register_interface.c:154:9:RI_SetRegisterMotor1	16	static
+C:/Users/tarak/Downloads/Dribbler Motor - HALL sensing with high-speed logging/Src/register_interface.c:368:9:RI_GetRegisterGlobal	16	static
+C:/Users/tarak/Downloads/Dribbler Motor - HALL sensing with high-speed logging/Src/register_interface.c:503:11:RI_GetRegisterMotor1	40	static
+C:/Users/tarak/Downloads/Dribbler Motor - HALL sensing with high-speed logging/Src/register_interface.c:792:9:RI_GetIDSize	0	static
+C:/Users/tarak/Downloads/Dribbler Motor - HALL sensing with high-speed logging/Src/register_interface.c:827:16:RI_GetPtrReg	0	static
