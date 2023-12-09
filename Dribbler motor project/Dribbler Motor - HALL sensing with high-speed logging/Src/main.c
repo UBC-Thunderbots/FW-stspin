@@ -115,15 +115,23 @@ int main(void)
 
   /* USER CODE END 2 */
 
+  /* Other one-time set-up */
+  /* USER CODE BEGIN 3*/
+  MC_ProgramSpeedRampMotor1_F((int16_t)1000, 5000);
+  /* USER CODE END 3 */
+
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1)
   {
     /* USER CODE END WHILE */
-
-    /* USER CODE BEGIN 3 */
+    /* USER CODE BEGIN 4 */
+    HAL_Delay(5000);
+    MC_StartMotor1();
+    HAL_Delay(5000);
+    MC_StopMotor1();
   }
-  /* USER CODE END 3 */
+  /* USER CODE END 4 */
 }
 
 /**
