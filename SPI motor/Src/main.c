@@ -31,7 +31,7 @@
 
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
-
+#define BUFFER_SIZE 2
 /* USER CODE END PD */
 
 /* Private macro -------------------------------------------------------------*/
@@ -59,7 +59,8 @@ DMA_HandleTypeDef hdma_tim1_ch3_up;
 UART_HandleTypeDef huart1;
 
 /* USER CODE BEGIN PV */
-
+uint8_t RX_Buffer[BUFFER_SIZE] = {0};
+uint8_t TX_Buffer[BUFFER_SIZE] = {0};
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -126,7 +127,8 @@ int main(void)
   /* Initialize interrupts */
   MX_NVIC_Init();
   /* USER CODE BEGIN 2 */
-
+  /* Initialize the DMA */
+  HAL_SPI_TransmitReceive_DMA(&hspi1, TX_Buffer, RX_Buffer, BUFFER_SIZE-1)
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -138,6 +140,17 @@ int main(void)
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */
+}
+
+// Overriding the callback in stm32f0xx_hal_spi.c
+void HAL_SPI_TxRxCpltCallback(SPI_HandleTypeDef *hspi)
+{
+  // Copy the contents of RX_Buffer to TX_Buffer
+  memcpy(TX_Buffer, RX_Buffer, BUFFER_SIZE);
+
+  // Reinitialize the DMA
+  // with CRC enabled, RX_Buffer length must be Size + 1
+  HAL_SPI_TransmitReceive_DMA(&hspi1, TX_Buffer, RX_Buffer, BUFFER_SIZE-1)
 }
 
 /**
